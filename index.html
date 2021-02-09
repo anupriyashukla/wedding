@@ -1,0 +1,203 @@
+<!-- https://michalsnik.github.io/aos/ -->
+ <!-- darken image linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) -->
+
+<!-- blue combine #0247FE,#0138D0  -->
+<!-- orange combine #FC600A,#DD5003  -->
+<!DOCTYPE html>
+<html>
+<title>TANMOY & DIVYA</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<style>
+body,h1,h2{font-family: "Roboto", sans-serif}
+body, html {height: 100%}
+html {
+  scroll-behavior: smooth;
+}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+/*.bgimg {background-image: url("pp.png");}*/
+.bgimg2 {background-image: url("pp.png")}
+
+.bgimg3 {
+  background-image: linear-gradient(#FC600A,#DD5003);}
+  /*background-image: url("pp.png");   background-repeat: no-repeat;
+  background-size: cover;}*/
+
+
+.hero-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("aaa.png");
+  background-color: black;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+ 
+}
+
+/*----------table css */
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+  AOS.init();
+</script>
+<body>
+
+<!-- Header / Home-->
+
+<div class="hero-image">
+  <div class="hero-text" >
+    <h1 style="font-size:50px">Tanmoy & Divya</h1>
+   <h2>Are getting married</h2>
+    <h2><b>16/02/2021</b></h2>
+  </div>
+</div>
+
+<!-- About / Jane And John -->
+<div class="w3-container w3-padding-64 bgimg3" id="us" style="color: purple;">
+  <div class="w3-content" style="background: none ;color: purple;">
+    <h1 class="w3-center" style="color: white;"><b>Tanmoy & Divya</b></h1>
+    <img class="w3-round w3-grayscale-min " src="couple.jpg" style="width:100%;margin:32px">
+    <p style="font-size: 25px;"><b><i style="color: white;"> This is not just a day to have the most delicious food, have fun and wear the newest dresses. This is the day when we take the brand new step in our relationship, which will be the first day of our married life. And this day will only be complete if my friends and relatives are there to see me tying the knot with my love. So, we want to invite you and your family to our festive day!
+    </i></b>
+    </p><br>
+   <!--  <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Wedding Details</a></p> -->
+  </div>
+</div>
+
+<!-- Background photo -->
+<div class="w3-display-container bgimg2">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">You Are Invited</h1><br>
+    <h2>Of course.</h2>
+  </div>
+</div>
+
+<!-- Wedding information -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center " id="wedding">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>THE WEDDING</b></h1>
+    <img class="w3-round-large w3-grayscale-min" src="/w3images/wedding_location.jpg" style="width:100%;margin:64px 0">
+    <div class="w3-row">
+      <div class="w3-half">
+        <h2>When</h2>
+        <p>Matr Poojan - 15/02/2021 </p>
+        <p>Swagat Baraat - 16/02/2021</p>
+        <p>Bheegi Palki - 17/02/2021</p>
+      </div>
+      <div class="w3-half">
+        <h2>Where</h2>
+        <p>The Resort Inn,CRF Training Center</p>
+        <p>Maruti Udyog, Dhamar , Gurugram </p>
+        <p>Haryana 122008</p>
+     
+      </div>
+    </div>
+  </div>
+</div>
+<!-- room information -->
+<div class="w3-display-container bgimg2" >
+  <div class="w3-display-middle w3-text-white w3-center">
+  
+<table id="customers" style="color: #6600cc ;">
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+</table>
+
+  </div>
+</div>
+
+</body>
+</html>
